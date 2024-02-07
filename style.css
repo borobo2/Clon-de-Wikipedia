@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    min-width: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img {
+    width: 20%;
+}
+header p {
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #36c;
+    font-size: 1rem;
+}
+a:hover {
+    color: none;
+}
+
+main {
+    width: 100%;
+}
+.section-main-nav {
+    height: 320px;
+    width: 100%;
+    min-width: 559px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 2.3rem;
+}
+.section-main-nav figure {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.section-main-nav img {
+    margin-top: 4rem;
+    margin-left: 0.2rem;
+}
+.main-nav {
+    position: absolute;
+    margin: 0 auto;
+}
+.main-nav a {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.main-nav .main-nav__little {
+    color: gray;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.ingles {
+    position: relative;
+    right: 115%;
+    top: 1.7rem;
+}
+.日本語 {
+    position: relative;
+    right: 160%;
+    top: 3.4rem;
+}
+.pусский {
+    position: relative;
+    right: 170%;
+    top: 5.2rem;
+}
+.italiano {
+    position: relative;
+    right: 160%;
+    top: 7.3rem;
+}
+.polski {
+    position: relative;
+    right: 115%;
+    top: 8.7rem;
+}
+.español {
+    position: relative;
+    left: 115%;
+    bottom: 11.5rem;
+}
+.aleman {
+    position:relative;
+    left: 160%;
+    bottom: 9.95rem;
+}
+.frances {
+    position: relative;
+    left: 170%;
+    bottom: 8.2rem;
+}
+.中文 {
+    position: relative;
+    left: 160%;
+    bottom: 6.2rem;
+}
+.portugues {
+    position: relative;
+    left: 115%;
+    bottom: 4.69rem;
+}
+
+.section-main-input {
+    width: 100%;
+    min-width: 520px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.section-main-input label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.section-main-input input {
+    width: 28rem;
+    height: 43px;
+    border: solid 2px #a2a9b1;
+    border-radius: 5px;
+}
+.section-main-input select {
+    position: absolute;
+    border: none;
+    margin-top: 0.84rem;
+    margin-left: 25rem;
+    color: #a2a9b1;
+}
+
+.section-button {
+    width: 100%;
+    min-width: 520px;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align-last: center;
+    border-bottom: solid 1px #a2a9b1;
+}
+.section-button select {
+    width: 17%;
+    height: 2.1rem;
+    color: #36c;
+    border: solid 1px #a2a9b1;
+    border-radius: 3px;
+    position: relative;
+    margin-left: 0.5rem;
+}
+.section-button option {
+    margin-left: 1rem;
+}
+
+.main-info {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: solid 1px #a2a9b1;
+}
+.main-info .footer-info {
+    width: 30%;
+}
+.main-info .footer-info p {
+    margin: 2rem 0 2rem 6rem;
+    font-size: 0.9rem;
+}
+.main-info .footer-info a {
+    margin-left: 6rem;
+    display: block;
+}
+
+.main-botton-items  {
+    width: 90%;
+}
+.main-botton-items ul {
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    display: inline-flex;
+    flex-direction: column;
+}
+.main-botton-items li {
+    margin-top: 2.15rem;
+    display: inline-flex;
+    align-items: center;
+    width: 230px;
+}
+.main-botton-items a {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+.main-botton-items .hypertext-gray {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+    font-size: 0.75rem;
+}
+.sidebar-icon-1 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/1200px-Wikibooks-logo.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/1200px-Wikiversity_logo_2017.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-4 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/1200px-Wikisource-logo.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-5 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/1024px-Wikivoyage-Logo-v3-icon.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-6 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/1200px-Wikinews-logo.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-7 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Notification-icon-Wikiquote.svg/1200px-Notification-icon-Wikiquote.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-8 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/1200px-Wikispecies-logo.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-9 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wiktfavicon_en.svg/1024px-Wiktfavicon_en.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-10 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Notification-icon-Wikidata-logo.svg/1200px-Notification-icon-Wikidata-logo.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-11 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Notification-icon-MediaWiki-logo.svg/1200px-Notification-icon-MediaWiki-logo.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.sidebar-icon-12 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Meta-Wiki_Proposed_logo.svg/1200px-Meta-Wiki_Proposed_logo.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+}
+.footer-terms {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 0.35rem;
+}
+.footer-terms li {
+    display: flex;
+    align-items: center;
+}
+.footer-terms a {
+    font-size: 0.75rem;
+    margin: 0 1rem;
+    position: relative;
+    left: 2rem;
+}
+.footer-item {
+    font-size: 0.8rem;
+}
